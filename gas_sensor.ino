@@ -2,13 +2,14 @@
 
 LiquidCrystal lcd(12 , 11 , 5 ,4 ,3 ,2);
 int Gas = 9;
-int redLed = 7;
-int greenLed = 6;
 
 void setup() {
 
-pinMode(Gas , INPUT);
+pinMode(9 , INPUT);
 pinMode(13,OUTPUT); 
+pinMode(7,OUTPUT);
+pinMode(6,OUTPUT);
+
   
 }
 
